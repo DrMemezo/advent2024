@@ -1,0 +1,6 @@
+regex for mul = mul\((\d\d\d|\d\d|\d),(\d\d\d|\d\d|\d)\)
+regex for don't() = don't\(\)
+regex for do() = do\(\)
+
+regex for all = 
+((don't\(\))|(mul\((?:\d\d\d|\d\d|\d),(?:\d\d\d|\d\d|\d)\))|(do\(\)))
